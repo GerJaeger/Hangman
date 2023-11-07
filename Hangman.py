@@ -26,5 +26,7 @@ while trys > 0:
         trys = trys -1
     if space == word:
         print("Du hast das richtige Wort erraten")
-        lose = False
+        break
+
+input("Das Spiel ist vorbei")
             
