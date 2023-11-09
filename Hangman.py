@@ -48,6 +48,7 @@ while trys > 0:
                 hz.tenth()
             case 1:
                 hz.last()
+                print(f"Das richtige Wort war {word}")
         trys = trys -1
             
     if space == word:
